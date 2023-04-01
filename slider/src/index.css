@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "My font", sans-serif;
+  font-size: 15px;
+  background-color: gray;
+}
+.title{
+    font-size: 68px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.blue_title{
+    color: #006B98;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+.card{
+    min-width: 340px;
+    width: 340px;
+    height: 310px;
+    border:none;
+    border-radius: 30px;
+    cursor: grab;
+}
+.img_1{
+    background-image: url("./assets/img.png");
+    background-size: 340px 310px;
+}
+.img_2{
+    background-image: url("./assets/img_1.png");
+    background-size: 340px 310px;
+}
+.img_3{
+    background-image: url("./assets/img_2.png");
+    background-size: 340px 310px;
+}
+.img_4{
+    background-image: url("./assets/img_3.png");
+    background-size: 340px 310px;
+}
+.img_5{
+    background-image: url("./assets/img_4.png");
+    background-size: 340px 310px;
+}
+.img_6{
+    background-image: url("./assets/img_5.png");
+    background-size: 340px 310px;
+}
+.img_7{
+    background-image: url("./assets/img_6.png");
+    background-size: 340px 310px;
+}
+.img_8{
+    background-image: url("./assets/img_7.png");
+    background-size: 340px 310px;
+}
+.img_9{
+    background-image: url("./assets/img_9.png");
+    background-size: 340px 310px;
+}
+.up{
+    padding: 20px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-bottom: 80px;
+    margin-left: 270px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    flex-direction: row;
+    margin-top: 100px;
+    gap: 1rem;
+    height: 310px;
+}
+.wrap{
+    display: none;
+}
+.card:hover .wrap{
+    display: block;
+}
+
